@@ -9,6 +9,8 @@ namespace OCRecognizer.Domain.Services
         {
             using (var engine = new TesseractEngine("tessdata", "eng", EngineMode.Default))
             {
+                engine.SetVariable("debug_file", false);
+
                 using (var image = Pix.LoadFromMemory(imageBytes))
                 {
                     using (var page = engine.Process(image))
