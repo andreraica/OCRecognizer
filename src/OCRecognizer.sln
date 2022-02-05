@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{B580F2B8-D822-41ED-86C8-8E3C60E254E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCRecognizer.Presentation.Console", "OCRecognizer.Presentation.Console\OCRecognizer.Presentation.Console.csproj", "{30BE833D-9E08-4846-A6CB-D88204E38564}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain.Services", "Domain.Services", "{F687D0D6-8776-4379-A653-E116600B5F52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCRecognizer.Domain.Services", "OCRecognizer.Domain.Services\OCRecognizer.Domain.Services.csproj", "{F3ADA1B3-1616-43E6-85D1-7E9B96CF8A16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30BE833D-9E08-4846-A6CB-D88204E38564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30BE833D-9E08-4846-A6CB-D88204E38564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30BE833D-9E08-4846-A6CB-D88204E38564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30BE833D-9E08-4846-A6CB-D88204E38564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3ADA1B3-1616-43E6-85D1-7E9B96CF8A16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3ADA1B3-1616-43E6-85D1-7E9B96CF8A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3ADA1B3-1616-43E6-85D1-7E9B96CF8A16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3ADA1B3-1616-43E6-85D1-7E9B96CF8A16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{30BE833D-9E08-4846-A6CB-D88204E38564} = {B580F2B8-D822-41ED-86C8-8E3C60E254E7}
+		{F3ADA1B3-1616-43E6-85D1-7E9B96CF8A16} = {F687D0D6-8776-4379-A653-E116600B5F52}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {534460FE-ADCF-4676-97F9-166B3150D5A0}
+	EndGlobalSection
+EndGlobal
